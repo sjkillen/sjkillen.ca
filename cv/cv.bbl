@@ -1,0 +1,363 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{DBLP:conf/iclp/KillenY21}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c989254f794897b988fb1a30d775922c}{%
+           family={Killen},
+           familyi={K\bibinitperiod},
+           given={Spencer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31398953c9c4f85f600b5edc56fe613b}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Jia{-}Huai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{fullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{bibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorbibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authornamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorfullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Workshop on Answer Set Programming and Other Computing Paradigms (ASPOCP)}
+      \field{title}{Fixpoint Characterizations of Disjunctive Hybrid {MKNF} Knowledge Bases}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{DBLP:conf/kr/KillenY21}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c989254f794897b988fb1a30d775922c}{%
+           family={Killen},
+           familyi={K\bibinitperiod},
+           given={Spencer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31398953c9c4f85f600b5edc56fe613b}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Jia{-}Huai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{fullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{bibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorbibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authornamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorfullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Principles of Knowledge Representation and Reasoning, {KR} 2021}
+      \field{title}{Unfounded Sets for Disjunctive Hybrid {MKNF} Knowledge Bases}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{DBLP:journals/corr/abs-2208-03087}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c989254f794897b988fb1a30d775922c}{%
+           family={Killen},
+           familyi={K\bibinitperiod},
+           given={Spencer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31398953c9c4f85f600b5edc56fe613b}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Jia{-}Huai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{fullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{bibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorbibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authornamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorfullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Logic Programming, {ICLP} 2022 Technical Communications}
+      \field{title}{A Fixpoint Characterization of Three-Valued Disjunctive Hybrid {MKNF} Knowledge Bases}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{DBLP:conf/iclp/KillenGY23}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c989254f794897b988fb1a30d775922c}{%
+           family={Killen},
+           familyi={K\bibinitperiod},
+           given={Spencer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b7dc30357cfb7411d03be3b888afe5d}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Wenkai},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31398953c9c4f85f600b5edc56fe613b}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Jia{-}Huai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8e4283be3d39475621fe3f8022467cfb}
+      \strng{fullhash}{8e4283be3d39475621fe3f8022467cfb}
+      \strng{bibnamehash}{8e4283be3d39475621fe3f8022467cfb}
+      \strng{authorbibnamehash}{8e4283be3d39475621fe3f8022467cfb}
+      \strng{authornamehash}{8e4283be3d39475621fe3f8022467cfb}
+      \strng{authorfullhash}{8e4283be3d39475621fe3f8022467cfb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Workshop on Answer Set Programming and Other Computing Paradigms (ASPOCP)}
+      \field{title}{Expanding the Class of Polynomial Time Computable Well-Founded Semantics for Hybrid {MKNF}}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{DBLP:conf/iclp/KillenY24}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c989254f794897b988fb1a30d775922c}{%
+           family={Killen},
+           familyi={K\bibinitperiod},
+           given={Spencer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31398953c9c4f85f600b5edc56fe613b}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Jia{-}Huai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{fullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{bibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorbibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authornamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorfullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Workshop on Answer Set Programming and Other Computing Paradigms (ASPOCP)}
+      \field{title}{Adapting Approximation Fixpoint Theory to Nondeterministic Hybrid Reasoning}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{DBLP:journals/tplp/KinahanKWY24}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c844096e66d61cdc27b44a6f50512ec9}{%
+           family={Kinahan},
+           familyi={K\bibinitperiod},
+           given={Riley},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c989254f794897b988fb1a30d775922c}{%
+           family={Killen},
+           familyi={K\bibinitperiod},
+           given={Spencer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92e2e8e3c42b7df5e78d46b83c556f72}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31398953c9c4f85f600b5edc56fe613b}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Jia{-}Huai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6149aaa38b94b2b06e810e1d5bd957f4}
+      \strng{fullhash}{4c2e984b3725dd0ff2d68b4a7da81521}
+      \strng{bibnamehash}{6149aaa38b94b2b06e810e1d5bd957f4}
+      \strng{authorbibnamehash}{6149aaa38b94b2b06e810e1d5bd957f4}
+      \strng{authornamehash}{6149aaa38b94b2b06e810e1d5bd957f4}
+      \strng{authorfullhash}{4c2e984b3725dd0ff2d68b4a7da81521}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theory Pract. Log. Program.}
+      \field{title}{On the Foundations of Conflict-Driven Solving for Hybrid {MKNF} Knowledge Bases}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{DBLP:conf/nmr/KillenY25a}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c989254f794897b988fb1a30d775922c}{%
+           family={Killen},
+           familyi={K\bibinitperiod},
+           given={Spencer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31398953c9c4f85f600b5edc56fe613b}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Jia{-}Huai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=eefb767557fada4eaa7c13deed5c072d}{%
+           family={Rapberger},
+           familyi={R\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4408b0bc9147789330e0059378241c8f}{%
+           family={Rudolph},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{fullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{bibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorbibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authornamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorfullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{editorbibnamehash}{dc00572d405063e07a34059954b78e0b}
+      \strng{editornamehash}{dc00572d405063e07a34059954b78e0b}
+      \strng{editorfullhash}{dc00572d405063e07a34059954b78e0b}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Workshop on Non-Monotonic Reasoning {(NMR} 2025)}
+      \field{title}{Eliminating Unintended Stable Fixpoints in Approximation Fixpoint Theory}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{DBLP:conf/nmr/KillenY25}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c989254f794897b988fb1a30d775922c}{%
+           family={Killen},
+           familyi={K\bibinitperiod},
+           given={Spencer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31398953c9c4f85f600b5edc56fe613b}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Jia{-}Huai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{fullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{bibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorbibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authornamehash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{authorfullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Workshop on Non-Monotonic Reasoning {(NMR} 2025)}
+      \field{series}{{CEUR} Workshop Proceedings}
+      \field{title}{Using {AFT} to Characterize Shen and Eiter's Disjunctive Logic Program Semantics}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{DBLP:conf/aaai/KillenYH25}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c989254f794897b988fb1a30d775922c}{%
+           family={Killen},
+           familyi={K\bibinitperiod},
+           given={Spencer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31398953c9c4f85f600b5edc56fe613b}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Jia{-}Huai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3ca99e42748961537c8768fce48d715}{%
+           family={Heyninck},
+           familyi={H\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce043fb020fe462a1354fd88c7769810}
+      \strng{fullhash}{ce043fb020fe462a1354fd88c7769810}
+      \strng{bibnamehash}{ce043fb020fe462a1354fd88c7769810}
+      \strng{authorbibnamehash}{ce043fb020fe462a1354fd88c7769810}
+      \strng{authornamehash}{ce043fb020fe462a1354fd88c7769810}
+      \strng{authorfullhash}{ce043fb020fe462a1354fd88c7769810}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Association for the Advancement of Artificial Intelligence (AAAI)}
+      \field{title}{An Alternative Theory of Stable Revision for Nondeterministic Approximation Fixpoint Theory and the Relationships}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
