@@ -250,12 +250,27 @@
            giveni={J\bibinitperiod},
            givenun=0}}%
       }
+      \name{editor}{2}{}{%
+        {{hash=eefb767557fada4eaa7c13deed5c072d}{%
+           family={Rapberger},
+           familyi={R\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4408b0bc9147789330e0059378241c8f}{%
+           family={Rudolph},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
       \strng{namehash}{cd4dd2bb84150ca126116c1545fa5d91}
       \strng{fullhash}{cd4dd2bb84150ca126116c1545fa5d91}
       \strng{bibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
       \strng{authorbibnamehash}{cd4dd2bb84150ca126116c1545fa5d91}
       \strng{authornamehash}{cd4dd2bb84150ca126116c1545fa5d91}
       \strng{authorfullhash}{cd4dd2bb84150ca126116c1545fa5d91}
+      \strng{editorbibnamehash}{dc00572d405063e07a34059954b78e0b}
+      \strng{editornamehash}{dc00572d405063e07a34059954b78e0b}
+      \strng{editorfullhash}{dc00572d405063e07a34059954b78e0b}
       \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
