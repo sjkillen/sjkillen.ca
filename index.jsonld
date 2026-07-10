@@ -1,0 +1,215 @@
+[
+  {
+    "@id": "https://wetaskiwincomp.ca",
+    "@type": [
+      "https://schema.org/EducationalOrganization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "Wetaskiwin Composite High School"
+      }
+    ]
+  },
+  {
+    "@id": "https://ualberta.ca",
+    "@type": [
+      "https://schema.org/CollegeOrUniversity"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "University of Alberta"
+      }
+    ]
+  },
+  {
+    "@id": "https://macewan.ca",
+    "@type": [
+      "https://schema.org/CollegeOrUniversity"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "MacEwan University"
+      }
+    ]
+  },
+  {
+    "@id": "https://ualberta.scholaris.ca/server/api/core/bitstreams/5e05e917-9b29-4bde-94d4-406efc0f1ed1/content",
+    "@type": [
+      "http://purl.org/coar/resource_type/c_46ec",
+      "https://schema.org/CreativeWork"
+    ],
+    "http://www.w3.org/ns/prov#Creator": [
+      {
+        "@language": "en-ca",
+        "@value": "https://sjkillen.ca"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "Paving the Way for Efficient Disjunctive Hybrid MKNF Knowledge Base Solvers"
+      }
+    ]
+  },
+  {
+    "@id": "https://sjkillen.ca",
+    "@type": [
+      "https://schema.org/Person",
+      "http://www.w3.org/ns/prov#Person"
+    ],
+    "http://www.w3.org/ns/rdfa#usesVocabulary": [
+      {
+        "@id": "https://schema.org/"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/account": [
+      {
+        "@id": "_:N157df523f3124f79ae615ea5e233b2af"
+      },
+      {
+        "@id": "_:Nba47aa5a61fe4374b716fa229771af3a"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/knows": [
+      {
+        "@id": "_:N7f552d6e88a549cfbb55754f6f55e5a9"
+      }
+    ],
+    "https://schema.org/alumniOf": [
+      {
+        "@id": "https://macewan.ca"
+      },
+      {
+        "@id": "_:N555a35b3b2584455996076437b66c54e"
+      },
+      {
+        "@id": "https://ualberta.ca"
+      }
+    ],
+    "https://schema.org/email": [
+      {
+        "@id": "mailto:sjkillen@ualberta.ca"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "Spencer Killen"
+      }
+    ]
+  },
+  {
+    "@id": "_:N555a35b3b2584455996076437b66c54e",
+    "@type": [
+      "https://schema.org/CollegeOrUniversity"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "University of Alberta"
+      }
+    ]
+  },
+  {
+    "@id": "_:N157df523f3124f79ae615ea5e233b2af",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/OnlineAccount"
+    ],
+    "http://xmlns.com/foaf/0.1/accountName": [
+      {
+        "@language": "en-ca",
+        "@value": "@mm__:matrix.org"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/accountServiceHomepage": [
+      {
+        "@language": "en-ca",
+        "@value": "https://matrix.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nba47aa5a61fe4374b716fa229771af3a",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/OnlineAccount"
+    ],
+    "http://xmlns.com/foaf/0.1/accountName": [
+      {
+        "@language": "en-ca",
+        "@value": "sjkillen"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/accountServiceHomepage": [
+      {
+        "@language": "en-ca",
+        "@value": "https://discord.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7f552d6e88a549cfbb55754f6f55e5a9",
+    "@type": [
+      "https://schema.org/Person"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "Jia-Huai You"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7b955e7e64cc4cd8b9f406d315e3a652",
+    "@type": [
+      "https://schema.org/EducationalOccupationalCredential"
+    ],
+    "https://schema.org/credentialCategory": [
+      {
+        "@language": "en-ca",
+        "@value": "High School Diploma"
+      }
+    ],
+    "https://schema.org/recognizedBy": [
+      {
+        "@id": "https://wetaskiwincomp.ca"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0f62f635019b48929b323cd138fe4545",
+    "@type": [
+      "https://schema.org/EducationalOccupationalCredential"
+    ],
+    "https://schema.org/credentialCategory": [
+      {
+        "@language": "en-ca",
+        "@value": "BSc. Honors Computing Science"
+      }
+    ],
+    "https://schema.org/recognizedBy": [
+      {
+        "@id": "https://ualberta.ca"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7fcb107317f24f32980f4016dc3c37c9",
+    "@type": [
+      "https://schema.org/EducationalOccupationalCredential"
+    ],
+    "https://schema.org/credentialCategory": [
+      {
+        "@language": "en-ca",
+        "@value": "MSc. Computing Science"
+      }
+    ],
+    "https://schema.org/recognizedBy": [
+      {
+        "@id": "https://ualberta.ca"
+      }
+    ]
+  }
+]
