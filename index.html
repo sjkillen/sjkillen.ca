@@ -7,6 +7,7 @@
         body {
             margin: 10%;
             margin-top: 5%;
+            background-color: PapayaWhip;
         }
         img.thumbnail {
             width: 126px;
@@ -24,12 +25,52 @@
 <body>
     <h1 property="name">Spencer Killen</h1>
     <hr>
-    A PhD. candidate at
+    Researcher, programmer, and digital sculptor.
+    Currently invested in logic programming languages, the semantic web, and game development.
+    <!--A PhD. candidate at
     <span property="alumniOf" typeof="CollegeOrUniversity">
         <span property="name" href="https://ualberta.ca">University of Alberta</span>, Canada
     </span> Supervised by
-    <span property="foaf:knows" typeof="Person"><span property="name">Jia-Huai You</span><meta content="https://apps.ualberta.ca/directory/person/jyou"></span>, PhD. My research is in symbolic artificial intelligence. Within the field of knowledge representation and reasoning, I have an interest in fixpoint semantics; having made various contributions to approximation fixpoint theory, answer set programming; with a strong focus on disjunctive rules, and I also study hybrid logic programming semantics including hybrid MKNF and DL (description logic) programs.
-
+    <span property="foaf:knows" typeof="Person"><span property="name">Jia-Huai You</span><meta content="https://apps.ualberta.ca/directory/person/jyou"></span>, PhD. My research is in symbolic artificial intelligence. Within the field of knowledge representation and reasoning, I have an interest in fixpoint semantics; having made various contributions to approximation fixpoint theory and answer set programming; with a strong focus on disjunctive rules, and I also study hybrid logic programming semantics including hybrid MKNF and DL (description logic) programs.
+-->
+    <h2>Current Projects</h2>
+    <ul>
+        <li>
+            <a href="https://github.com/sjkillen/godot-vertex-animation">Creating a toolchain/workflow for 3D vertex animations created in Blender, played back in Godot</a>
+            <div style="max-width: 700px;">
+            What grew from a fascination with applying unusual animation techniques in game jam projects, has evolved into a general-purpose vertex animation export/playback tool.
+            It works by exporting an animation in Blender to an image and then creating a method to playback the animation in Godot.
+            The tool addresses limitations I found with other scripts and focuses on some features that I wanted for my own game projects. These are summarized as follows
+            <ul>
+                <li>Support for complex meshes</li>
+                <ul>
+                    <li>The tool can opt to only animate a subset of vertices</li>
+                    <li>Meshes with many materials/surfaces are supported</li>
+                </ul>
+                <li>Integration with existing/complex animations</li>
+                <ul>
+                    <li>The playback system blends traditional skeleton/armature-based animations with vertex animations</li>
+                    <li>A system for coordinating animations across many objects (e.g. cutscenes) is included which supports any number of embedded vertex animations</li>
+                </ul>
+            </ul>
+            </div>
+            <video style="width:200px;" src="rat.mp4" autoplay loop></video>
+        </li>
+        <li>
+            <a href="https://libreinternet.club/">co-Founding a Libre Internet Club at University of Alberta</a>
+            <div style="max-width: 700px;">
+            Several other interested students and I are developing programming and securing funding to establish a community centred around open source, the fediverse, the indie web, and other related technologies.
+            We hope to bring students at the University of Alberta together under the flag of "an internet that isn't controlled by corporations" to build, learn how to build cool shit and to build cool shit.
+            </div>
+        </li>
+        <li>
+            <a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ICLP2026.29">Improving well-supported semantics for description logic programs</a>
+            <div style="max-width: 700px;">
+                Much of my academic focus is concerned with the issue in the semantic web of combining open- and closed- world reasoning.
+                In this line of research, we are examining description logic programs and their well-supportedness.
+            </div>
+        </li>
+    </ul>
 
     <h2>Contact</h2>
     <table>
@@ -75,8 +116,12 @@
             <td>Forgejo:</td>
             <td><a href="https://git.sjkillen.ca/sjkillen/" target="_blank">sjkillen</a></td>
         </tr>
+        <tr>
+            <td>Itch.io (Games)</td>
+            <td><a href="http://hl__ur.itch.io/" target="_blank">hl__ur</a></td>
+        </tr>
     </table>
-
+<!--
     <h2>Education</h2>
     <table>
         <tr typeof="EducationalOccupationalCredential">
@@ -114,10 +159,10 @@
             <td>PhD. Computing Science (ongoing)</td>
             <td></td>
         </tr>
-    </table>
+    </table>-->
     <br />
     <br />
     <br />
-    <a href="index.jsonld">View this page as JSONLD</a>
+    <!--<a href="index.jsonld">View this page as JSONLD</a>-->
 </body>
 </html>
