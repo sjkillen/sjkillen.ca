@@ -1,0 +1,214 @@
+[
+  {
+    "@id": "_:N14906017dad141c4aab4687516fabef7",
+    "@type": [
+      "https://schema.org/EducationalOccupationalCredential"
+    ],
+    "https://schema.org/credentialCategory": [
+      {
+        "@language": "en-ca",
+        "@value": "BSc. Honors Computing Science"
+      }
+    ],
+    "https://schema.org/recognizedBy": [
+      {
+        "@id": "https://ualberta.ca"
+      }
+    ]
+  },
+  {
+    "@id": "https://ualberta.scholaris.ca/server/api/core/bitstreams/5e05e917-9b29-4bde-94d4-406efc0f1ed1/content",
+    "@type": [
+      "https://schema.org/CreativeWork",
+      "http://purl.org/eprint/type/Thesis"
+    ],
+    "http://www.w3.org/ns/prov#Creator": [
+      {
+        "@language": "en-ca",
+        "@value": "https://sjkillen.ca"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "Paving the Way for Efficient Disjunctive Hybrid MKNF Knowledge Base Solvers"
+      }
+    ]
+  },
+  {
+    "@id": "https://sjkillen.ca",
+    "@type": [
+      "https://schema.org/Person",
+      "http://www.w3.org/ns/prov#Person"
+    ],
+    "http://www.w3.org/ns/rdfa#usesVocabulary": [
+      {
+        "@id": "https://schema.org/"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/account": [
+      {
+        "@id": "_:N01d8d8e0342445c5a80882bf55d5aaff"
+      },
+      {
+        "@id": "_:N7b54631880354977895f6480e8f50b28"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/knows": [
+      {
+        "@id": "_:N2bfd229d3fc742dcbaea2279024db2ab"
+      }
+    ],
+    "https://schema.org/alumniOf": [
+      {
+        "@id": "https://ualberta.ca"
+      },
+      {
+        "@id": "https://macewan.ca"
+      },
+      {
+        "@id": "_:N0267c348936f4635aee1e91ca5e8637b"
+      }
+    ],
+    "https://schema.org/email": [
+      {
+        "@id": "mailto:sjkillen@ualberta.ca"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "Spencer Killen"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0267c348936f4635aee1e91ca5e8637b",
+    "@type": [
+      "https://schema.org/CollegeOrUniversity"
+    ],
+    "https://schema.org/name": [
+      {
+        "@id": "https://ualberta.ca"
+      }
+    ]
+  },
+  {
+    "@id": "_:N01d8d8e0342445c5a80882bf55d5aaff",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/OnlineAccount"
+    ],
+    "http://xmlns.com/foaf/0.1/accountName": [
+      {
+        "@language": "en-ca",
+        "@value": "sjkillen"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/accountServiceHomepage": [
+      {
+        "@language": "en-ca",
+        "@value": "https://discord.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7b54631880354977895f6480e8f50b28",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/OnlineAccount"
+    ],
+    "http://xmlns.com/foaf/0.1/accountName": [
+      {
+        "@language": "en-ca",
+        "@value": "@mm__:matrix.org"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/accountServiceHomepage": [
+      {
+        "@language": "en-ca",
+        "@value": "https://matrix.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2bfd229d3fc742dcbaea2279024db2ab",
+    "@type": [
+      "https://schema.org/Person"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "Jia-Huai You"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4e47cfbed3e14fbf986cb54ae8751cfb",
+    "@type": [
+      "https://schema.org/EducationalOccupationalCredential"
+    ],
+    "https://schema.org/credentialCategory": [
+      {
+        "@language": "en-ca",
+        "@value": "MSc. Computing Science"
+      }
+    ],
+    "https://schema.org/recognizedBy": [
+      {
+        "@id": "https://ualberta.ca"
+      }
+    ]
+  },
+  {
+    "@id": "https://wetaskiwincomp.ca",
+    "@type": [
+      "https://schema.org/EducationalOrganization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "Wetaskiwin Composite High School"
+      }
+    ]
+  },
+  {
+    "@id": "https://macewan.ca",
+    "@type": [
+      "https://schema.org/CollegeOrUniversity"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "MacEwan University"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nacb50845f75f490eb42a12843fc48f56",
+    "@type": [
+      "https://schema.org/EducationalOccupationalCredential"
+    ],
+    "https://schema.org/credentialCategory": [
+      {
+        "@language": "en-ca",
+        "@value": "High School Diploma"
+      }
+    ],
+    "https://schema.org/recognizedBy": [
+      {
+        "@id": "https://wetaskiwincomp.ca"
+      }
+    ]
+  },
+  {
+    "@id": "https://ualberta.ca",
+    "@type": [
+      "https://schema.org/CollegeOrUniversity"
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en-ca",
+        "@value": "University of Alberta"
+      }
+    ]
+  }
+]

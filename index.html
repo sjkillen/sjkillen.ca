@@ -1,9 +1,13 @@
+<!DOCTYPE html>
+
+<html lang="en-CA" prefix="eprint: http://purl.org/eprint/type/ foaf: http://xmlns.com/foaf/0.1/" vocab="https://schema.org/" typeof="Person prov:Person" resource="">
 <head>
-    <title>Spencer Killen</title>
+    <title property="name">Spencer Killen</title>
     <style>
         body {
             margin: 10%;
             margin-top: 5%;
+            background-color: PapayaWhip;
         }
         img.thumbnail {
             width: 126px;
@@ -19,88 +23,146 @@
     </style>
 </head>
 <body>
-    <h1>Spencer Killen</h1>
-    <hr />
-    A PhD. candidate at University of Alberta, Canada. Supervised by <a target="_blank" href="https://apps.ualberta.ca/directory/person/jyou">Jia-Huai You, PhD</a>.
-    My research is in symbolic artificial intelligence.
-    Within the field of knowledge representation and reasoning, I have an interest in
-    fixpoint semantics; having made various contributions to approximation fixpoint theory,
-    answer set programming; with a strong focus on disjunctive rules, and 
-    I also study hybrid logic programming semantics including hybrid MKNF and DL (description logic) programs.
+    <h1 property="name">Spencer Killen</h1>
+    <hr>
+    Researcher, programmer, and digital sculptor.
+    Currently invested in logic programming languages, the semantic web, verifiable AI, and game development.
+    <!--A PhD. candidate at
+    <span property="alumniOf" typeof="CollegeOrUniversity">
+        <span property="name" href="https://ualberta.ca">University of Alberta</span>, Canada
+    </span> Supervised by
+    <span property="foaf:knows" typeof="Person"><span property="name">Jia-Huai You</span><meta content="https://apps.ualberta.ca/directory/person/jyou"></span>, PhD. My research is in symbolic artificial intelligence. Within the field of knowledge representation and reasoning, I have an interest in fixpoint semantics; having made various contributions to approximation fixpoint theory and answer set programming; with a strong focus on disjunctive rules, and I also study hybrid logic programming semantics including hybrid MKNF and DL (description logic) programs.
+-->
+    <h2>Current Projects</h2>
+    <ul>
+        <li>
+            <a href="https://github.com/sjkillen/godot-vertex-animation">Creating a toolchain/workflow for 3D vertex animations created in Blender, played back in Godot</a>
+            <div style="max-width: 700px;">
+            What grew from a fascination with applying unusual animation techniques in game jam projects, has evolved into a general-purpose vertex animation export/playback tool.
+            It works by exporting an animation in Blender to an image and then creating a method to playback the animation in Godot.
+            The tool addresses limitations I found with other scripts and focuses on some features that I wanted for my own game projects. These are summarized as follows
+            <ul>
+                <li>Support for complex meshes</li>
+                <ul>
+                    <li>The tool can opt to only animate a subset of vertices</li>
+                    <li>Meshes with many materials/surfaces are supported</li>
+                </ul>
+                <li>Integration with existing/complex animations</li>
+                <ul>
+                    <li>The playback system blends traditional skeleton/armature-based animations with vertex animations</li>
+                    <li>A system for coordinating animations across many objects (e.g. cutscenes) is included which supports any number of embedded vertex animations</li>
+                </ul>
+            </ul>
+            </div>
+            <video style="width:200px;" src="rat.mp4" autoplay loop></video>
+        </li>
+        <li>
+            <a href="https://libreinternet.club/">co-Founding a Libre Internet Club at University of Alberta</a>
+            <div style="max-width: 700px;">
+            Several other interested students and I are developing programming and securing funding to establish a community centred around open source, the fediverse, the indie web, and other related technologies.
+            We hope to bring students at the University of Alberta together under the flag of "an internet that isn't controlled by corporations" to build, learn how to build cool shit and to build cool shit.
+            </div>
+        </li>
+        <li>
+            <a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ICLP2026.29">Improving well-supported semantics for description logic programs</a>
+            <div style="max-width: 700px;">
+                Much of my academic focus is concerned with the issue in the semantic web of combining open- and closed- world reasoning.
+                In this line of research, we are examining description logic programs and their well-supportedness.
+            </div>
+        </li>
+    </ul>
+
     <h2>Contact</h2>
     <table>
-        <tr><td>Email:</td><td><a href="mailto:sjkillen@ualberta.ca">sjkillen@ualberta.ca</a></td></tr>
-        <tr><td>Discord:</td><td>sjkillen</td></tr>
-        <tr><td>Matrix:</td><td>@mm__:matrix.org</td></tr>
+        <tr>
+            <td>Email:</td>
+            <td><a property="email" href="mailto:sjkillen@ualberta.ca">sjkillen@ualberta.ca</a></td>
+        </tr>
+        <tr>
+            <td>Discord:</td>
+            <td><span property="foaf:account" typeof="foaf:OnlineAccount">
+                <meta property="foaf:accountServiceHomepage" content="https://discord.com">
+                <span property="foaf:accountName">sjkillen</span>
+            </span></td>
+        </tr>
+        <tr>
+            <td>Matrix:</td>
+            <td><span property="foaf:account" typeof="foaf:OnlineAccount">
+                <meta property="foaf:accountServiceHomepage" content="https://matrix.org">
+                <span property="foaf:accountName">@mm__:matrix.org</span>
+            </span></td>
+        </tr>
     </table>
-    <h2>Listening to...</h2>
-    <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2688771318/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=460049583/transparent=true/" seamless><a href="https://anmlcollectve.bandcamp.com/album/feels">Feels by Animal Collective</a></iframe>
-    <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=104852051/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=717089246/transparent=true/" seamless><a href="https://kinggizzard.bandcamp.com/album/flight-b741">Flight b741 by King Gizzard &amp; The Lizard Wizard</a></iframe>
-    <h2>
-        Research
+
+    <h2>Research</h2>
         <table>
-            <tr><td>ORCID:</td><td><a target="_blank" href="https://orcid.org/0000-0003-3930-5525">0000-0003-3930-5525</a></td></tr>
-            <tr><td>Publications:</td><td> <a target="_blank" href="https://dblp.org/pid/286/5015.html">DBLP</a></td></tr>
+            <tr>
+                <td>ORCID:</td>
+                <td><a target="_blank" href="https://orcid.org/0000-0003-3930-5525">0000-0003-3930-5525</a></td>
+            </tr>
+            <tr>
+                <td>Publications:</td>
+                <td><a target="_blank" href="https://dblp.org/pid/286/5015.html">DBLP</a></td>
+            </tr>
         </table>
-    </h2>
+
     <h2>Software</h2>
     <table>
         <tr>
-            <td>Github:</td><td><a href="https://github.com/sjkillen" target="_blank">sjkillen</a></td>
+            <td>Github:</td>
+            <td><a href="https://github.com/sjkillen" target="_blank">sjkillen</a></td>
         </tr>
         <tr>
-            <td>Forgejo:</td><td><a href="https://git.sjkillen.ca/sjkillen/" target="_blank">sjkillen</a></td>
+            <td>Forgejo:</td>
+            <td><a href="https://git.sjkillen.ca/sjkillen/" target="_blank">sjkillen</a></td>
+        </tr>
+        <tr>
+            <td>Itch.io (Games)</td>
+            <td><a href="http://hl__ur.itch.io/" target="_blank">hl__ur</a></td>
         </tr>
     </table>
-    <h2>Game Development</h2>
-    All games that I have made or collaborated on are available on my <a href="https://hl-ur.itch.io/">Itch.io</a> page.
-    Here are some select projects from <a href="https://globalgamejam.org/what-game-jam">game jams</a> or group collaborations.
-    <table>
-        <tr>
-            <td><a target="_blank" href="https://store.steampowered.com/app/1891430/Meat_Madness/"><img class="thumbnail" src="meat_madness.png"></a></td>
-            <td><a target="_blank" href="https://store.steampowered.com/app/1891430/Meat_Madness/">Meat Madness</a></td>
-            <td>A low-poly horror platformer that has you uncovering a dark narrative of a corporation's mining operation on a planet made of meat.</td>
-        </tr>
-        <tr>
-            <td><a target="_blank" href="https://hl-ur.itch.io/crosstalk"><img class="thumbnail" src="crosstalk.png" /></a></td>
-            <td><a target="_blank" href="https://hl-ur.itch.io/crosstalk">Crosstalk</a></td>
-            <td>This cryptic horror puzzle game combines high definition video and photography to create unique visuals while decoding incoming television signals.</td>
-        </tr>
-        <tr>
-            <td><a target="_blank" href="https://jesuisnuit.itch.io/our-last-hike"><img class="thumbnail" src="our_last_hike.png" /></a></td>
-            <td><a target="_blank" href="https://jesuisnuit.itch.io/our-last-hike">Our Last Hike</a></td>
-            <td>This game, which placed first in C-Tribe's 2024 Winter game jam, slowly guides the player up a massive mountain to spread the ashes of their deceased father. The player is challenged with a slow and arduous journey.</td>
-        </tr>
-        <tr>
-            <td><a target="_blank" href="https://hl-ur.itch.io/"><img class="thumbnail" src="https://static.itch.io/images/itchio-textless-black.svg" /></a></td>
-            <td><a target="_blank" href="https://hl-ur.itch.io/">More Games</a></td>
-        </tr>
-    </table>
-    <h2>Technical Art</h2>
-
-    In addition to game development, I also have an interest in technical 3D art including digital scultping and animation.
-    <table>
-        <tr>
-            <td><img class="gallery" src="cow_fur.png" /></td>
-            <td>From some experiments to implement procedural fur rendering techniques in Blender and Godot</td>
-        </tr>
-        <tr>
-            <td><img class="gallery" src="low_fi_ground.png" /></td>
-            <td>A player model from a scrapped low-poly project that would be a multiple doom-like shooter where players can burrow in the ground</td>
-        </tr>
-        <tr>
-            <td>
-                <img class="gallery" src="rat_night.png" />
-            </td>
-        </tr>
-    </table>
-
+<!--
     <h2>Education</h2>
     <table>
-        <tr><td>Wetaskiwin Composite High School</td><td>2014</td><td>High School Diploma</td></tr>
-        <tr><td>MacEwan University</td><td>2014-2017</td><td>BSc. (Transferred out)</td></tr>
-        <tr><td>University of Alberta</td><td>2017-2019</td><td>BSc. Honors Computing Science</td></tr>
-        <tr><td>University of Alberta</td><td>2019-2021</td><td>MSc. Computing Science</td> <td><a href="https://ualberta.scholaris.ca/server/api/core/bitstreams/5e05e917-9b29-4bde-94d4-406efc0f1ed1/content">Paving the Way for Efficient Disjunctive Hybrid MKNF Knowledge Base Solvers</a></td> </tr>
-        <tr><td>University of Alberta</td><td>ongoing</td><td>PhD. Computing Science</td> <td>(ongoing)</td> </tr>
-    </table>
+        <tr typeof="EducationalOccupationalCredential">
+            <td property="recognizedBy" typeof="EducationalOrganization" href="https://wetaskiwincomp.ca"><span property="name">Wetaskiwin Composite High School</span></td>
+            <td>2014</td>
+            <td><span property="credentialCategory">High School Diploma</span></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><span property="alumniOf" typeof="CollegeOrUniversity" href="https://macewan.ca"><span property="name">MacEwan University</span></span></td>
+            <td>2014-2017</td>
+            <td>BSc. (Transferred out)</td>
+            <td></td>
+        </tr>
+        <tr typeof="EducationalOccupationalCredential">
+            <td><span property="recognizedBy" href="https://ualberta.ca" typeof="CollegeOrUniversity"><span property="name">University of Alberta</span></span></td>
+            <td>2017-2019</td>
+            <td><span property="credentialCategory">BSc. Honors Computing Science</span></td>
+            <td></td>
+        </tr>
+        <tr typeof="EducationalOccupationalCredential">
+            <td><span property="recognizedBy" typeof="CollegeOrUniversity" href="https://ualberta.ca"><span property="name">University of Alberta</span></span></td>
+            <td>2019-2021</td>
+            <td><span property="credentialCategory">MSc. Computing Science</span></td>
+            <td>
+                <a typeof="CreativeWork eprint:Thesis" href="https://ualberta.scholaris.ca/server/api/core/bitstreams/5e05e917-9b29-4bde-94d4-406efc0f1ed1/content">
+                    <span property="name">Paving the Way for Efficient Disjunctive Hybrid MKNF Knowledge Base Solvers</span>
+                    <meta property="prov:Creator" content="https://sjkillen.ca">
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><span property="alumniOf" typeof="CollegeOrUniversity" href="https://ualberta.ca"><span property="name">University of Alberta</span></span></td>
+            <td>ongoing</td>
+            <td>PhD. Computing Science (ongoing)</td>
+            <td></td>
+        </tr>
+    </table>-->
+    <br />
+    <br />
+    <br />
+    <!--<a href="index.jsonld">View this page as JSONLD</a>-->
 </body>
+</html>
